@@ -1,8 +1,9 @@
-var thumbnails = {
+import React from "react";
 
-}
+var Thumbnails = () => (
+<div>
+  thumbnails here
+</div>
+)
 
-ReactDOM.render(
-  <Thumbnail thumbnail={meme-thumbnails}/>,
-  document.getElementById('app')
-);
+export default Thumbnails;

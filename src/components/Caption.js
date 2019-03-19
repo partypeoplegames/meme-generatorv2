@@ -1,8 +1,9 @@
-var caption = {
+import React from "react";
 
-}
+var Caption = () => (
+  <div>
+    I am the caption
+  </div>
+)
 
-ReactDOM.render(
-  <Caption caption={meme-caption}/>,
-  document.getElementById('app')
-);
+export default Caption;

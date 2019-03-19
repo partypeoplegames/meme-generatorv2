@@ -1,8 +1,9 @@
-var image = {
+import React from "react";
 
-}
+var Image = () => (
+  <div>
+    image here
+  </div>
+)
 
-ReactDOM.render(
-  <Image image={meme-image}/>,
-  document.getElementById('app')
-);
+export default Image;
