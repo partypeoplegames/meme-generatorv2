@@ -2,10 +2,10 @@
 
 ## Using this Repository
 
-##### npm install
-##### npm run dev will build a dist folder and watch for changes made
-##### npm start will launch a react hot server that will refresh on changes.
-##### npm server will start an Express server that serves the index.html file in dist ( http://localhost:1337 )
+###### npm install
+###### npm run dev will build a dist folder and watch for changes made
+###### npm start will launch a react hot server that will refresh on changes.
+###### npm server will start an Express server that serves the index.html file in dist ( http://localhost:1337 )
 
 ## Getting a Copy of the Repo
 
