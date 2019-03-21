@@ -9,6 +9,14 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static("dist"));
 
+app.get('/:test', (req, res) => {
+  // console.log("REQ BODY :", req.body);
+  console.log("THIS THING :", req.params.test);
+  res.status(200).send(JSON.stringify('CARMAGEDDON'));
+
+  
+});
+
 app.listen(PORT, () =>
   console.log(`meme generator server listening on port: ${PORT}`)
 );
