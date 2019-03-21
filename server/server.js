@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const axios = require("axios");
-const faker = require("faker");
 const app = express();
 const PORT = 1337;
 
